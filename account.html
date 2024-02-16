@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filmifly - films free</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Filmifly - account</h1>
+    <label for="api-key-input"></label><input id="api-key-input" type="text" placeholder="Введите ключ">
+    <button id="saveButton">Сохранить</button>
+    <button id="mainMenuButton">Главное меню</button>
+    <script>
+        const apiKeyInput = document.getElementById("api-key-input");
+        const mainMenuButton = document.getElementById("mainMenuButton");
+
+        document.getElementById("saveButton").addEventListener("click", function() {
+            localStorage.setItem("apiKey", document.getElementById("api-key-input").value.trim());
+        });
+
+        mainMenuButton.addEventListener("click", (event) => {
+            window.location.href = `./index.html`;
+        })
+
+        const apiKeyCheck = localStorage.getItem("apiKey").trim();
+        if (apiKeyCheck.length > 2) {
+            apiKeyInput.value = apiKeyCheck;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #f55c5c;
+    padding: 1rem 0;
+    margin: 0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 40px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.0;
+}
+
+.center {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 20px;
+    background-color: #f55c5c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b64242;
+}
+
+.favorite-button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #f55c5c;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.film-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border-radius: 40px;
+    padding: 1rem;
+}
+
+.film-card img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 40px;
+}
+
+.film-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.film-info p {
+    margin: 0.5rem 0;
+}
+
+.film-description {
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.red-button {
+    display: inline-block;
+    background-color: #f55c5c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.red-button:hover {
+    background-color: #b64242;
+    color: white;
+    text-decoration: none;
+}
+
+.show-description-button {
+    display: inline-block;
+    background-color: #f55c5c;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.show-description-button:hover {
+    background-color: #b64242;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 780px) {
+    .film-description {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .show-description-button {
+        display: none;
+    }
+}
