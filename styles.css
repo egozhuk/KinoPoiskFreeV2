@@ -19,16 +19,18 @@ h1 {
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     font-size: 40px;
+    position: relative;
 }
 
 .accountButton {
     position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 20px;
+    top: 50%;
+    right: 20px;
     margin-right: 20px;
     background-color: white;
     color: #f55c5c;
+    padding: 0.5rem 0.3rem;
+    transform: translateY(-50%);
 }
 
 p {
