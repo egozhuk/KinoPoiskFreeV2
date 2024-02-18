@@ -22,7 +22,7 @@ h1 {
     position: relative;
 }
 
-.accountButton {
+.staredButton {
     position: absolute;
     top: 50%;
     right: 20px;
@@ -33,7 +33,7 @@ h1 {
     transform: translateY(-50%);
 }
 
-.staredButton {
+.accountButton {
     position: absolute;
     top: 50%;
     left: 20px;
