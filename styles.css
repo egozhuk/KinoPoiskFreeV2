@@ -26,10 +26,10 @@ h1 {
     position: absolute;
     top: 50%;
     right: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
     background-color: white;
     color: #f55c5c;
-    padding: 0.5rem 0.3rem;
+    padding: 0.7rem 0.7rem;
     transform: translateY(-50%);
 }
 
@@ -37,10 +37,10 @@ h1 {
     position: absolute;
     top: 50%;
     left: 20px;
-    margin-right: 20px;
+    margin-left: 30px;
     background-color: white;
     color: #f55c5c;
-    padding: 0.5rem 0.5rem;
+    padding: 0.7rem 0.7rem;
     transform: translateY(-50%);
 }
 
