@@ -21,6 +21,10 @@ document.getElementById("accountButton").addEventListener("click", function() {
     window.location.href = 'account.html'
 });
 
+document.getElementById("watchNoAdsButton").addEventListener("click", function() {
+    window.location.href = 'noads.html'
+});
+
 async function performSearch() {
     const query = searchInput.value.trim();
 
